@@ -18,6 +18,7 @@ margin-left: 11%;
   width: 80%;
 }
 
+
 @media screen and (min-width: 1440px) {
   .context{
     position: relative;
@@ -53,4 +54,134 @@ margin-left: 9.5%;
 .propcard{
   height: 40%;
 }
+.services{
+  position: relative;
+  top: 25px;
+  z-index: 1;
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
+.services p{
+ 
+  margin-top: 3%;
+  padding: 1%;
+}
+}
+
+
+
+
+@media screen and (max-width: 1439px) {
+  .context{
+    position: relative;
+    
+    top: -100px;
+    left: 0px;
+  }
+  .explore {
+    position:relative;
+    z-index: 1;
+top: -120px;
+justify-content: center;
+align-items: center;
+
+}
+.catext{
+  position: relative;
+  top: -88px;
+  margin-left: 10.3%;
+  width: 80%;
+}
+.catcard{
+margin-top: -95px;
+margin-left: 2.5%;
+  width: 95%;
+  
+
+}
+.crdimg{
+width:85% ;
+margin-left: 9.5%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+.services{
+  position: relative;
+  top: 20px;
+  width: 80%;
+  margin-left: 10.3%;
+  z-index: 1;
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.services p{
+ 
+  margin-top: 3%;
+  padding: 1%;
+}
+}
+
+
+
+@media screen and (max-width: 1439px) {
+  .context{
+    position: relative;
+    
+    left: 0px;
+  }
+  .explore {
+    position:relative;
+    z-index: 1;
+top: -20px;
+justify-content: center;
+align-items: center;
+
+}
+.catext{
+  position: relative;
+  top: 0px;
+  margin-left: 10.3%;
+  width: 80%;
+}
+.catcard{
+margin-top: 0px;
+margin-left: 2.5%;
+  width: 95%;
+  
+
+}
+.crdimg{
+width:85% ;
+margin-left: 8%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+.services{
+  position: relative;
+  top: 20px;
+  width: 80%;
+  margin-left: 10.3%;
+  z-index: 1;
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.services p{
+ 
+  margin-top: 3%;
+  padding: 1%;
+}
+}
+
+
+
+
+
