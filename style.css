@@ -19,7 +19,7 @@ margin-left: 11%;
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 2560px) {
   .context{
     position: relative;
     
@@ -72,30 +72,28 @@ margin-left: 9.5%;
 
 
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
   .context{
     position: relative;
     
-    top: -100px;
+    top: -40px;
     left: 0px;
   }
   .explore {
-    position:relative;
-    z-index: 1;
-top: -120px;
-justify-content: center;
-align-items: center;
+    position:relative ;
+    top: -40px;
+
 
 }
 .catext{
   position: relative;
-  top: -88px;
-  margin-left: 10.3%;
+  top: 5px;
+  margin-left: 10%;
   width: 80%;
 }
 .catcard{
-margin-top: -95px;
-margin-left: 2.5%;
+margin-top: 20px;
+margin-left: 2.8%;
   width: 95%;
   
 
@@ -128,7 +126,7 @@ margin-left: 9.5%;
 
 
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 425px) {
   .context{
     position: relative;
     
