@@ -15,7 +15,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg  bg-body-tertiary">
+<nav class="navbar navbar-expand-lg  bg-body-tertiary" id="home">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Nayutaa</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,12 @@
 <!--UPPER Carousel-->
 
 
-<div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade"  data-bs-ride="carousel" id="home">
+<div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade"  data-bs-ride="carousel" >
  
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="900">
       <img src="back7.jpg" class="d-block w-100 banner" alt="...">
-      <div class="carousel-caption d-none d-md-block context">
+      <div class="carousel-caption d-none d-md-block context" >
         <h1>First slide label</h1>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
@@ -99,7 +99,8 @@
 
 
 <div class="row row-cols-1 row-cols-md-3 g-4 catcard">
-  <div class="col propcard">
+  <a class="link-card" href="menu.html">
+     <div class="col propcard"  >
     <div class="card h-80 crdimg">
       <img src="cards\1.png" class="card-img-top "  alt="...">
       <div class="card-body">
@@ -108,16 +109,21 @@
       </div>
     </div>
   </div>
-  <div class="col propcard">
-    <div class="card h-80 crdimg">
-      <img src="cards\2.png" class="card-img-top " alt="...">
-      <div class="card-body">
+  </a>
+ <a class="link-card" href="menu.html">
+  <div class="col propcard" >
+    <div class="card h-80 crdimg" >
+      <img src="cards\2.png" class="card-img-top " alt="..." >
+      <div class="card-body"  >
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a short card.</p>
       </div>
     </div>
   </div>
-  <div class="col propcard">
+ </a>
+  
+
+  <a class="link-card" href="menu.html"> <div class="col propcard" >
     <div class="card h-80 crdimg">
       <img src="cards\3.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -125,7 +131,8 @@
         <p class="card-text">This is a short card.</p>
       </div>
     </div>
-  </div>
+  </div></a>
+ 
  
 </div>
 
