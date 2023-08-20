@@ -1,3 +1,7 @@
+ 
+ .body{
+  background-color:#ebecf0;
+ }
  .explore {
     position:relative;
     z-index: 1;
@@ -21,41 +25,60 @@ margin-left: 11%;
   text-decoration: none;
 }
 
+
+.service{
+height: 25rem;
+
+ background-color: antiquewhite;
+
+
+ background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 @media screen and (max-width: 2560px) {
   .context{
     position: relative;
-    
-    top: -200px;
+    top: -240px;
     left: 0px;
+  }
+ h1{
+  font-size: 3rem;
+  }
+  p{
+  font-size: 2rem;
   }
   .explore {
     position:relative;
     z-index: 1;
-top: -190px;
+top: -160px;
 justify-content: center;
 align-items: center;
 
-}
+  }
+
 .catext{
   position: relative;
   top: -145px;
 }
+
 .catcard{
 margin-top: -150px;
 margin-left: 2%;
   width: 95%;
-  
-
+  margin-bottom: 4%;
 }
+
 .crdimg{
 width:85% ;
 margin-left: 9.5%;
-
 }
 
 .propcard{
   height: 40%;
 }
+
 .services{
   position: relative;
   top: 25px;
@@ -63,33 +86,50 @@ margin-left: 9.5%;
   padding: 1%;
   margin-top: 5%;
   margin-bottom: 10%;
+  margin: auto;
 }
+
+.service{
+height: 35rem;
+background-color: antiquewhite;
+background-image: url( bg.jpg);
+}
+
 .services p{
- 
-  margin-top: 3%;
+ width: 70%;
+ margin: auto;
+  margin-top: 0%;
   padding: 1%;
 }
+
 }
 
 
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
   .context{
     position: relative;
     
-    top: -40px;
+    top: -170px;
     left: 0px;
   }
   .explore {
     position:relative ;
-    top: -40px;
+    top: -100px;
+    scale:1;
 
 
 }
+h1{
+  font-size: 2.5rem;
+  }
+p{
+  font-size: 1.5rem;
+  }
+
 .catext{
   position: relative;
-  top: 5px;
+  top: -30px;
   margin-left: 10%;
   width: 80%;
 }
@@ -112,52 +152,63 @@ margin-left: 9.5%;
 .services{
   position: relative;
   top: 20px;
-  width: 80%;
-  margin-left: 10.3%;
+  width: 100%;
   z-index: 1;
   padding: 1%;
-  margin-top: 5%;
-  margin-bottom: 10%;
 }
 .services p{
+ margin-top: 10%;
+  margin:auto;
+}
+.service{
+height: 24rem;
  
-  margin-top: 3%;
-  padding: 1%;
+ background-color: antiquewhite;
+
+ background-image: url(bg.jpg);
+ 
 }
 }
 
 
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 1024px) {
   .context{
     position: relative;
     
-    left: 0px;
+    top: -10px;
+
   }
   .explore {
-    position:relative;
-    z-index: 1;
-top: -20px;
-justify-content: center;
-align-items: center;
+    position:relative ;
+    top: -15px;
+
 
 }
+h1{
+  font-size: 1.5rem;
+  }
+p{
+  font-size: 1rem;
+  }
 .catext{
   position: relative;
-  top: 0px;
-  margin-left: 10.3%;
+  top: 10px;
+  margin-left: 10%;
   width: 80%;
 }
 .catcard{
-margin-top: 0px;
-margin-left: 2.5%;
+  position: relative;
+margin: auto;
+top: -10px;
   width: 95%;
   
 
 }
 .crdimg{
 width:85% ;
-margin-left: 8%;
+margin: auto;
 
 }
 
@@ -172,12 +223,95 @@ margin-left: 8%;
   z-index: 1;
   padding: 1%;
   margin-top: 5%;
-  margin-bottom: 10%;
+
 }
 .services p{
  
   margin-top: 3%;
   padding: 1%;
+}
+.service{
+  position: relative;
+
+height: 17rem;
+ 
+ background-color: antiquewhite;
+
+ background-image: url(bg.jpg);
+ 
+}
+}
+
+
+
+@media screen and (max-width: 426px) {
+  .context{
+    position: relative;
+    left: 0px;
+  }
+
+
+  h1{
+  font-size: 1.5rem;
+  }
+p{
+  font-size: 1rem;
+  }
+
+
+  .explore {
+    position:relative;
+    z-index: 1;
+top: 25px;
+justify-content: center;
+align-items: center;
+
+}
+.catext{
+  position: relative;
+  top: 40px;
+  margin-left: 10.3%;
+  width: 80%;
+}
+.catcard{
+margin-top: 50px;
+margin-left: 2.5%;
+  width: 95%;
+  
+
+}
+.crdimg{
+width:85% ;
+margin-left: 8%;
+
+}
+
+.propcard{
+  height: 40%;
+  margin-bottom: 10%;
+}
+.services{
+  position: relative;
+  top: 20px;
+  width: 100;
+
+  z-index: 1;
+  padding: 1%;
+margin: auto;
+}
+.services p{
+ width: 100%;
+ margin: auto;
+  margin-top: 5%;
+  padding: 1%;
+}
+.service{
+height: 20rem;
+
+ background-color: antiquewhite;
+
+ background-image: url(bg.jpg);
+ 
 }
 }
 
@@ -189,3 +323,6 @@ margin-left: 8%;
   transition: 0.5s ease-in-out;
 }
 
+hr{
+  margin: 0px;
+}
